@@ -8,7 +8,7 @@ enum RIGHTCLICK_MENU_ITEMS {
 
 const GODOT_DEFAULT_FONT_SIZE: int = 16
 
-@export var font_file: FontFile = preload("res://fonts/monospaced/DejaVu_Sans/DejaVuSansMono.ttf")
+@export var font_file: FontFile = preload("../fonts/monospaced/DejaVu_Sans/DejaVuSansMono.ttf")
 @export var font_size: int = 22
 @export var default_text_color: Color = Color.WHITE
 @export var prompt_color: Color = Color.GREEN
